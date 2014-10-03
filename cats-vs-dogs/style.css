@@ -75,6 +75,9 @@ html[xmlns] .clearfix { display: block; }
 p {
 	font-size:17px;
 }
+header h1 {
+	align:center;
+}
 nav li a{
 	text-transform: uppercase;
 	font-weight:bold;
