@@ -77,13 +77,16 @@ html[xmlns] .clearfix { display: block; }
 p {
 	font-size:17px;
 }
-nav li a{
-	text-transform: uppercase;
-	font-weight:bold;
-	font-size:25px;
-	color:#000;
+nav li {
 	float:left;
 	padding:5px 10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:25px;
+	font-weight:bold;
+	text-transform: uppercase;	
+}
+nav li a{
+	color:red;
 	text-decoration:none;
 	list-style-type:circle;
 	font-family:Georgia, "Times New Roman", Times, serif;
