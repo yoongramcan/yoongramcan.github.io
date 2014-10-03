@@ -92,6 +92,9 @@ nav li a{
 	font-weight:bold;
 	color:#000;
 }
+footer {
+	font-size:10px;
+}
 footer em {
 	color:red;
 }
