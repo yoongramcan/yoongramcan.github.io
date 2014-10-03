@@ -75,12 +75,12 @@ html[xmlns] .clearfix { display: block; }
 
 nav ul:li {
 	text-transform: uppercase;
+	
+}
+nav li {
 	color:black;
 	float:left;
 	padding:5px 10px;
-}
-nav li {
-	
 }
 
 
