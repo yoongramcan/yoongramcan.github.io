@@ -73,7 +73,7 @@ html[xmlns] .clearfix { display: block; }
 /*************************** END RESET ***************************/
 
 p {
-	font-size:20px;
+	font-size:14px;
 }
 nav li a{
 	text-transform: uppercase;
