@@ -53,16 +53,16 @@ table {
 /* END RESET */
 
 header h1 {
-	font-family: Helvetica, Impact, Charcoal,  sans-serif;
+	font-family: Helvetica, Impact, Charcoal, sans-serif;
 	font-size:22px;
 	font-weight:bold;
 }
 .ingredients {
-	font-family: Helvetica, Impact, Charcoal,  sans-serif;
+	font-family: Helvetica, Impact, Charcoal, sans-serif;
 	font-size:14px;
 }
 .serving {
-	font-family: Helvetica, Impact, Charcoal,  sans-serif;
+	font-family: Helvetica, Impact, Charcoal, sans-serif;
 	font-size:14px;
 	font-weight:bold;
 }
