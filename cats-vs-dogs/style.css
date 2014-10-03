@@ -80,7 +80,7 @@ nav ul:li {
 }
 nav li {
 	text-transform: uppercase;
-	color:black;
+	color:#000000;
 	float:left;
 	padding:5px 10px;
 }
