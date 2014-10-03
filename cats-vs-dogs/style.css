@@ -76,7 +76,7 @@ html[xmlns] .clearfix { display: block; }
 nav li a{
 	text-transform: uppercase;
 	font-weight:bold;
-	font-size:30px;
+	font-size:25px;
 	color:#000000;
 	float:left;
 	padding:5px 10px;
