@@ -70,7 +70,9 @@ table {
 .clearfix { display: inline-block; }
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
-/*************************** END RESET ***************************/
+
+/* END RESET */
+
 
 p {
 	font-size:17px;

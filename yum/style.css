@@ -50,7 +50,10 @@ table {
 	border-spacing: 0;
 }
 
-
 /* END RESET */
+
+header h1 {
+	font-family: Impact, Charcoal, Helvetica, sans-serif;
+}
 
 
