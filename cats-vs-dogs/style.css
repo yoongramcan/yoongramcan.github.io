@@ -73,8 +73,9 @@ html[xmlns] .clearfix { display: block; }
 /*************************** END RESET ***************************/
 
 
-nav li {
+nav ul:li {
 	text-transform: uppercase;
+	color:black;
 }
 
 
