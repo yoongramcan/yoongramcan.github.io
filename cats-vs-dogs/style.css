@@ -93,7 +93,8 @@ nav li a{
 	color:#000;
 }
 footer {
-	font-size:10px;
+	font-size:12px;
+	font-weight:bold;
 }
 footer em {
 	color:red;
