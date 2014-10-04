@@ -49,21 +49,61 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* END RESET */
-
+body {
+	padding:20px;
+}
+.container {
+	width:420px;
+	height:600px;
+	margin:25px;
+	background-color:#999d1c; /*light green*/
+	padding:60px;
+	border-radius:30px;
+	position:relative;
+	float:left;
+}
 header h1 {
 	font-family: Helvetica, Impact, Charcoal, sans-serif;
 	font-size:22px;
 	font-weight:bold;
+	position:absolute;
+	top:60px;
+	left:220px;
+	line-height:110%;
 }
-.ingredients {
+.ingredient {
 	font-family: Helvetica, Impact, Charcoal, sans-serif;
+	font-size:12px;
+	position:absolute;
+	top:160px;
+	left:60px;
+	right:360px;
+	line-height:120%;
+}
+li {
+	padding-bottom:10px;
+}
+.leftindent {
+	padding-left:10px;
+}
+.howto {
 	font-size:14px;
+	position:absolute;
+	top:160px;
+	left:220px;
+	right:60px;
+	line-height:130%;
+}
+p {
+	padding-bottom: 15px;
 }
 .serving {
 	font-family: Helvetica, Impact, Charcoal, sans-serif;
-	font-size:14px;
+	font-size:13px;
 	font-weight:bold;
+	position:absolute;
+	bottom:40px;
+	left:60px;
 }
 
