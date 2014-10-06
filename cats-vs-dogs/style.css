@@ -77,11 +77,21 @@ html[xmlns] .clearfix { display: block; }
 p {
 	font-size:17px;
 }
+.container {
+	width:900px;
+	margin:0px auto;
+	background-color:#CCC;
+}
+nav { /*****I don't get this why nav is not center?????******/
+	margin:30px 0px 30px 0px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
 nav li {
 	float:left;
-	padding:5px 10px;
+	padding:5px 20px;
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:25px;
+	font-size:20px;
 	font-weight:bold;
 	text-transform: uppercase;	
 }
@@ -93,7 +103,7 @@ nav li a{
 }
 .head {
 	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:25px;
+	font-size:20px;
 	font-weight:bold;
 	color:#000;
 }
