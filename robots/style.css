@@ -49,4 +49,148 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*********** END RESET ***********/
+
+body {
+	font-family:Helvetica, Arial, sans-serif;
+}
+p {
+	font-size:14px;
+	line-height:1.7em;	
+}
+#site-wrapper {
+	background-color:#ecf2d3; /*creme*/
+}
+#site-header {
+	width:70%;
+	margin:0px auto;
+	position:relative;
+}
+#site-header h1 a { /*****how to get logo img in the right place*****/
+	display: block;
+	width: 306px;
+	height: 123px;
+	background: url(images/logo.png) no-repeat top left;
+	text-indent: -9999px;
+}
+#top-nav {
+	float:right;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+#top-nav a {
+	color:#744918; /*brown*/
+	text-decoration:none;
+	font-size:14px;
+	padding:10px;
+}
+#menu-wrapper {
+	background-color:#744918; /*brown*/
+	height:33px;
+}
+#main-menu {
+	width:70%;
+	margin:0px auto;	
+}
+#main-menu li a {
+	float:left;
+	color:white;
+	text-decoration:none;
+	padding:10px 30px 10px 0px;
+	font-size:13px;
+	text-transform:uppercase;
+}
+#content-wrapper {
+	background-color:white;
+	padding:70px 0px;
+}
+#content {
+	clear:both;
+	width:70%;
+	margin:0px auto;
+}
+#page {
+	width:50%;
+	float:left;
+}
+#page h1 {
+	color:#744918; /*brown*/
+	text-transform:uppercase;
+	font-size:35px;
+	font-weight:bold;
+}
+#page h2 {
+	color:#744918; /*brown*/
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:15px;
+}
+#sidebar {
+	float:right;
+	width:30%;
+}
+#sidebar h1 {
+	color:#744918; /*brown*/
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:bold;
+	margin-top:55px;
+}
+#sidebar ul {
+	padding:10px 0px;
+}
+#sidebar li a {
+	text-decoration:none;
+	color:#744918; /*brown*/
+	line-height:25px;
+}
+#sidebar img {
+	margin
+}
+#footer-wrapper {
+	background-color:#744918; /*brown*/
+	height:200px;
+	clear:both;
+}
+#site-footer {
+	width:70%;
+	margin:0px auto;
+	padding:15px 0px;
+	color:white;
+}
+#site-footer h1 { 
+	color:#cdc3ac; /*darker-creme*/
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:bold;
+}
+#footer-contact {
+	width:18%;
+	float:left;
+}
+#footer-contact p {
+	padding-top:10px;
+	}
+#footer-follow {
+	float:right;
+	padding-right:50px;
+}
+#footer-follow li {
+	float:left;
+}
+.clear {
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
 
