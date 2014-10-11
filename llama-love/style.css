@@ -62,7 +62,36 @@ h1 {
 h2 {
 	font-size:13px;
 	color:#999;
+	padding-top:5px;
 }
 p {
 	font-size:14px;
+	padding-top:15px;
+	line-height:20px;
 }
+#main-content {
+	width:70%;
+	margin:20px auto;
+	
+}
+.leftside {
+	float:left;
+	width:48%;
+}
+.leftside img{
+	float:left;
+	padding-right:15px;
+}
+.rightside {
+	float:right;
+	width:48%;
+}
+.rightside img{
+	float:left;
+	padding-right:15px;
+}
+
+
+
+
+
