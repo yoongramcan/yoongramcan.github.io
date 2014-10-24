@@ -74,6 +74,8 @@ html[xmlns] .clearfix { display: block; }
 /*********************** END RESET ***********************/
 
 body {
+	width:960px;
+	margin:0px auto;
 	padding:50px;
 }
 p {
@@ -121,18 +123,17 @@ article img {
 }
 .box1 {
 	width:49%;
-	/*background-color:red;*/
 	float:left;
 }
 .box2 {
 	width:49%;
-	/*background-color:green;*/
 	float:right;
 }
 footer {
 	font-size:14px;
 	border-top: 3px solid black;
 	margin-top:20px;
+	padding-top:10px;
 }
 footer a {
 	color:red;
