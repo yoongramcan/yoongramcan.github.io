@@ -73,7 +73,7 @@ html[xmlns] .clearfix { display: block; }
 
 /*********************** END RESET ***********************/
 @font-face {
-    font-family: 'league_gothicitalic';
+    font-family:'league_gothicitalic';
     src: url('type/leaguegothic-italic-webfont.eot');
     src: url('type/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('type/leaguegothic-italic-webfont.woff2') format('woff2'),
@@ -88,14 +88,20 @@ body {
 	width:960px;
 	margin:0px auto;
 	padding:50px;
-	font-family:'league_gothicitalic';
-	
-	
-	
+	font-family:Georgia, "Times New Roman", Times, serif;	
 }
 p {
 	font-size:16px;
 	line-height:22px;
+}
+h1 {
+	text-transform: uppercase;
+	font-family:'league_gothicitalic', sans-serif;
+	text-align:center;
+	font-size:130px;
+}
+h1 em {
+	font-size:80px;
 }
 h1 img {
 	margin:0px auto; 
