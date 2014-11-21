@@ -47,7 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* -----------------END RESET---------------- */
+/********************* END RESET *********************/
 
 body {
 	font-family: 'EB Garamond', serif;
@@ -58,6 +58,7 @@ body {
 	padding:50px; /********* Why???? **********/
 }
 header {
+	padding:25px;
 	margin-bottom:50px;
 }
 header h1 {
@@ -80,11 +81,11 @@ nav ul {
 	float:left;
 }
 nav li {
-	padding-right:20px;
+	margin-left:20px;
 	font-family:'Open Sans', sans-serif;
 	font-size:14px;
 	color:gray;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	display:inline-block;
 }
 nav li:last-child {
@@ -97,23 +98,24 @@ nav li a {
 nav li a:hover {
 	color:lightgray;
 }
-.home img {
-	max-width:260px;
-	float:left;
-	margin-right:50px;
-	margin-bottom:50px;
+.home {
+	background-color:purple;
+	/*padding:20px;*/
 }
-.home img a {            /********* Why???? **********/
-	margin-right:50px;
+.home img {
+	max-width:269px;
+	float:left;
+	margin:0px 25px 50px 25px;
 }
 .left-column {
 	width:40%;
 	float:left;
-	/*background-color:pink;*/
+	padding:;
 	color:#636363;
+	background-color:pink;
 }
 .left-column h1 {
-	font-family:sans-serif;
+	font-family:'LeagueGothic-Regular', sans-serif;
 	font-size:20px;
 	text-transform:uppercase;
 	text-align:center;
