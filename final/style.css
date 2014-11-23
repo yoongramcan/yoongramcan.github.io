@@ -75,13 +75,13 @@ body {
 	font-family: 'EB Garamond', serif;
 }
 .wrapper {
-	width:75%;
+	width:80%;
 	margin:0px auto;
-	padding:50px; /********* Why???? **********/
+	padding-top:30px;
 }
 header {
-	padding:25px;
 	margin-bottom:50px;
+	padding:0px 25px 25px 25px;
 }
 header h1 {
 	font-family:'montserratlight';
@@ -122,7 +122,7 @@ nav li a:hover {
 	color:lightgray;
 }
 .home img {
-	max-width:269px;
+	max-width:290px;
 	float:left;
 	margin:0px 25px 50px 25px;
 }
@@ -131,18 +131,19 @@ nav li a:hover {
 	height:50px;
 }
 .left-column {
-	width:37%;
+	width:30%;
 	float:left;
+	padding-left:25px;
 	color:#707070; /* #353535 dark-gray*/
 	line-height:1.5em;
 }
 .left-column h1 {
 	font-family: 'Pathway Gothic One', sans-serif; /*font-family:'league_gothicregular' sans-serif;*/
-	font-size:40px;
+	font-size:37px;
 	letter-spacing: 1px;
 	line-height:1.05em;
-	text-transform:uppercase;
 	text-align:center;
+	text-transform:uppercase;
 	margin-bottom:8px;
 }
 .left-column h2 {
@@ -152,13 +153,14 @@ nav li a:hover {
 	margin-bottom:15px;
 }
 .right-column {
-	width:58%;
+	width:62%;
 	float:right;
+	padding-right:25px;
 	line-height:1.5em;
 	color:gray;
 }
 .right-column img {
-	max-width:105%;
+	max-width:100%;
 	margin-bottom:30px;
 }
 .prev {
