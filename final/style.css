@@ -171,6 +171,7 @@ nav li a:hover {
 .prev a {
 	text-transform:uppercase;
 	font-family:sans-serif;
+	font-size: 14px;
 	float:left;
 	text-decoration:none;
 	color:gray;
@@ -186,6 +187,7 @@ nav li a:hover {
 .next a {
 	text-transform:uppercase;
 	font-family:sans-serif;
+	font-size: 14px;
 	float:right;
 	text-decoration:none;
 	color:gray;
@@ -223,9 +225,92 @@ footer h1 {
 .clear {
 	clear:both;
 }
+
+
 	
+@media screen and (max-width:400px) {
+	body {
+		width:95%;
+		/*padding:30px;*/
+	}
+	nav {
+		display:none;
+	}
+	.box1 {
+		width:90%;
+		margin:30px 0px;
+	}
+	.box2 {
+		width:100%;
+	}
+} /* End Query*/
 	
-	
+
+
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+ 
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+ 
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+pan.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+}
+ 
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}	
 	
 	
 	
