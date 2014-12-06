@@ -121,56 +121,15 @@ nav li a {
 nav li a:hover {
 	color:lightgray;
 }
-
-/* HOVER IMAGE THEN SHOW TEXT */
-.home {
-	overflow:hidden;
-	margin:0;
-	background-color:blue;
+.home img {
+	width:290px;
+	float:left;
+	margin:0px 25px 50px 25px;
 }
-.box {
-	width:30%;
-   float:left;
-   position:relative;
-   padding-bottom:24%;
-	background-color:green;
+.home img a:hover {
+	background-color:pink;
+	height:50px;
 }
-.boxInner {
-	position:absolute;
-	left:10px;
-	right:10px;
-	top:10px;
-	bottom:10px;
-	overflow:hidden;	
-}
-.boxInner a img {
-	width:100%;
-}
-.boxInner .titlebox {
-	position:absolute;
-	bottom:0;
-	left:0;
-	right:0;
-	/*margin-bottom:-70px;*/
-	background-color: red;
-	opacity:0;
-	padding:10px;
-	letter-spacing:1px;
-	color:white;
-	font-family:sans-serif;
-	font-size:1em;
-	text-align:center;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out; /*allow the text to slide up */ 
-}
-.boxInner:hover .titlebox {
-	margin-bottom:0;
-	opacity:.55;
-}
-/* END HOVER IMAGE THEN SHOW TEXT */
-
 .left-column {
 	width:30%;
 	float:left;

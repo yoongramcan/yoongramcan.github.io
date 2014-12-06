@@ -169,14 +169,14 @@ footer a {
 
 @media screen and (max-width:750px) {
 	body {
-		width:100%;
+		width:80%;
 		background-color:purple;
 	}
 	nav {
 		display:none;
 	}
 	.box1 {
-		width:90%;
+		width:70%;
 		margin:30px 0px;
 	}
 	.box2 {
@@ -184,9 +184,9 @@ footer a {
 	}
 } /* End Query*/
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:470px) {
 	body {
-		width:95%;
+		width:100%;
 		padding:30px;
 		background-color:green;
 	}
