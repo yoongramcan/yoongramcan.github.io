@@ -72,7 +72,7 @@ table {
     font-style: normal;
 }
 body {
-	font-family: 'EB Garamond', serif;
+	font-family:'EB Garamond', serif;
 }
 .wrapper {
 	width:80%; /*1020px*/
@@ -126,21 +126,17 @@ nav li a:hover {
 .home {
 	overflow:hidden;
 	margin:0;
-	background-color:blue;
 }
 .box {
-	width:30%;
+	width:29.3%;
    float:left;
    position:relative;
-   padding-bottom:24%;
+   padding-bottom:23.1%;
 	background-color:green;
+	margin:2%;
 }
 .boxInner {
 	position:absolute;
-	left:10px;
-	right:10px;
-	top:10px;
-	bottom:10px;
 	overflow:hidden;	
 }
 .boxInner a img {
@@ -148,26 +144,33 @@ nav li a:hover {
 }
 .boxInner .titlebox {
 	position:absolute;
-	bottom:0;
-	left:0;
-	right:0;
-	/*margin-bottom:-70px;*/
-	background-color: red;
+	bottom:2px;
+	left:-1px;
+	right:-1px;
+	background-color:white;
 	opacity:0;
 	padding:10px;
+	font-family:'Pathway Gothic One', sans-serif;
+	font-size:1.7em;
+	text-transform: uppercase;
+	line-height: 0.8em;
 	letter-spacing:1px;
-	color:white;
-	font-family:sans-serif;
-	font-size:1em;
+	color:#666;
 	text-align:center;
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out; /*allow the text to slide up */ 
 }
+.boxInner .titlebox em { 
+	font-family:'EB Garamond', serif;
+	text-transform:capitalize;
+	font-size:0.6em;
+	font-style:italic;
+}
 .boxInner:hover .titlebox {
 	margin-bottom:0;
-	opacity:.55;
+	opacity:.8;
 }
 /* END HOVER IMAGE THEN SHOW TEXT */
 
