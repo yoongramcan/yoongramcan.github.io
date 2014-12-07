@@ -7,6 +7,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="slide.js"></script>
   </head>
   
   <body>
@@ -15,7 +16,7 @@
 			  <h1><a href="index.html">Pink Nye</a></h1>
 			  <nav>
 		  		<ul>
-		  			<li><a href="index.html">Work</a></li>
+		  			<li class="onpage"><a href="index.html">Work</a></li>
 					<li><a href="resume.html">Resume</a></li>
 					<li><a href="about.html">About</a></li>
 		  		</ul>
@@ -26,17 +27,54 @@
 			  <h1>Type Designer Brochure</h1>
 			  <h2>Typegraphy</h2>
 			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
-			  <p>back to top</p>
 		  </section>
 	  
-		  <section class="right-column">
-			  <img src="images/brochure.jpg" alt="brochure">
-			  <img src="images/brochure2.jpg" alt="brochure2">
-			  <img src="images/brochure3.jpg" alt="brochure3">
-			  <p class="prev"><a href="#">Previous</a></p>
-			  <p class="next"><a href="#">Next</a></p>
-		  </section>
-		  <div class="clear"></div>
+		  <!-- SLIDE #1 --> 
+		  <section class="right-column"> 
+			  
+			  <article id="slide-one" class="slide">
+			  	  <article class="slide-inner">
+			  	  <figure>
+			        <img src="images/brochure.jpg" alt="brochure">
+			  	  </figure>
+			  	  <figure>
+			        <img src="images/brochure2.jpg" alt="brochure2">
+			  	  </figure>
+			  	  <figure>
+			        <img src="images/brochure3.jpg" alt="brochure3">
+			  	  </figure>
+			  	  </article>
+			  		<a href="#" class="btn right" >&#62;</a> <!-- left arrow -->
+			  		<a href="#" class="btn left" >&#60;</a> <!-- right arrow -->
+			  	</article>
+				
+		  	    <script type="text/javascript">
+		  	  	// Call plugin if you put in head if not not require DOMContentLoaded
+		  	  	document.addEventListener('DOMContentLoaded',function(){
+		  	  	  new boxSlider(document.querySelector('#slide-one'),{
+		  	  	      delay: '1000', // ms
+		  	  	      effect: 'ease-in-out'
+		  	  	  });
+		  	  	});
+		  	  </script>
+		 	 <!-- END SLIDE #1 -->     
+			</section>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		 <div class="clear"></div>
 		  <hr>
 		  
 		  <section class="slide-thumnails">
