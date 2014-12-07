@@ -7,6 +7,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   		<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="slide.js"></script>
   </head>
   
   <body>
@@ -15,7 +16,7 @@
 			  <h1><a href="index.html">Pink Nye</a></h1>
 			  <nav>
 		  		<ul>
-		  			<li><a href="index.html">Work</a></li>
+		  			<li class="onpage"><a href="index.html">Work</a></li>
 					<li><a href="resume.html">Resume</a></li>
 					<li><a href="about.html">About</a></li>
 		  		</ul>
@@ -29,11 +30,28 @@
 			  <p>back to top</p>
 		  </section>
 	  
-		  <section class="right-column">
-			  <img src="images/chocolate2.jpg" alt="chocolate2">
-			  <p class="prev"><a href="#">Previous</a></p>
-			  <p class="next"><a href="#">Next</a></p>
-		  </section>
+		  <!-- SLIDE #1 --> 
+		  <section class="right-column"> 
+			  <article id="slide-one" class="slide">
+			  	  <article class="slide-inner">
+				  	  <figure>
+				        <img src="images/chocolate2.jpg" alt="brochure">
+				  	  </figure>
+			  	  </article><!-- end .slide-inner -->
+			  	</article><!-- end #slide-one .slide -->
+				
+		  	    <script type="text/javascript">
+		  	  	// Call plugin if you put in head if not not require DOMContentLoaded
+		  	  	document.addEventListener('DOMContentLoaded',function(){
+		  	  	  new boxSlider(document.querySelector('#slide-one'),{
+		  	  	      delay: '1000', // ms
+		  	  	      effect: 'ease-in-out'
+		  	  	  });
+		  	  	});
+		  	  </script>  
+			</section><!-- end .right-column -->
+			<!-- END SLIDE #1 -->   
+			
 		  <div class="clear"></div>
 		  <hr>
 		  
