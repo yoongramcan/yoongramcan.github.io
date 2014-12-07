@@ -256,8 +256,8 @@ nav li a:hover {
   position: relative;
   width:100%;
   height:470px;
-  padding: 0;
-  overflow: hidden;
+  padding:0;
+  overflow:hidden;
   /*margin: 10px;
   -webkit-box-shadow: ;
   -moz-box-shadow: ;
@@ -267,56 +267,55 @@ nav li a:hover {
   border-radius: 5px;*/
 }
 .slide-inner {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 310px;
+   width:100%;
+   height:310px;
+	position:absolute;
+	left:0;
+	top:0;  
 }
 .slide-inner figure {
-  position: relative;
-  display: block;
-  padding: 0;
-  margin: 0;
-  float: left;
+	position: relative;
+	display: block;
+	padding: 0;
+	margin: 0;
+	float: left;
 }
 .slide-inner figure img {
-  width: 100%;
-  border: 0;
-  outline: 0;
-  display: block;
-  /*height: 310px;*/
+	width:100%;
+	border: 0;
+	outline: 0;
+	display: block;
 }
 .slide .btn{
-  position:absolute;
-  bottom:50%;
-  z-index:100000;
-  text-decoration: none;
-  background:gray;
-  opacity:0.6;
-  padding:.5% 1.8%;
-  border-radius:50%;
-  color: white;
-  font-weight: bold;
-  border: 1px solid white;
-  font-family: monospace;
-  box-shadow: 0 1px 2px #5F5F5F;
-  -webkit-transition: all 0.8s ease-in;
-  -moz-transition: all 0.8s ease-in;
-  -ms-transition: all 0.8s ease-in;
-  -o-transition: all 0.8s ease-in;
-  transition: all 0.8s ease-in;
+	position:absolute;
+	bottom:50%;
+	z-index:100000;
+	text-decoration: none;
+	background:gray;
+	opacity:0.6;
+	padding:.5% 1.8%;
+	border-radius:50%;
+	color: white;
+	font-weight: bold;
+	border: 1px solid white;
+	font-family: monospace;
+	box-shadow: 0 1px 2px #5F5F5F;
+	-webkit-transition: all 0.8s ease-in;
+	-moz-transition: all 0.8s ease-in;
+	-ms-transition: all 0.8s ease-in;
+	-o-transition: all 0.8s ease-in;
+	transition: all 0.8s ease-in;
 }
 /*.slide .btn:hover,.slide .btn:focus{
-  background: #fff;
-  color: #c0392b;
-  border: 2px solid #c0392b;
-  box-shadow: 0 1px 2px #fff;
-  -webkit-transition: all 0.8s ease-out;
-  -moz-transition: all 0.8s ease-out;
-  -ms-transition: all 0.8s ease-out;
-  -o-transition: all 0.8s ease-out;
-  transition: all 0.8s ease-out;
+	background: #fff;
+	color: #c0392b;
+	border: 2px solid #c0392b;
+	box-shadow: 0 1px 2px #fff;
+	-webkit-transition: all 0.8s ease-out;
+	-moz-transition: all 0.8s ease-out;
+	-ms-transition: all 0.8s ease-out;
+	-o-transition: all 0.8s ease-out;
+	transition: all 0.8s ease-out;
 }*/
 .slide .left{left:1%;}
 .slide .right{right:1%;}
