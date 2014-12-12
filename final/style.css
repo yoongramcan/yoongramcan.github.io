@@ -303,6 +303,10 @@ footer h1 {
 
 /* START RESPONSIVE */	
 @media screen and (max-width:1000px) {
+	header {
+		margin-bottom:5%; /*50px*/
+		padding:0 18% 2% 2%;
+	}
 	nav img ul{
 		float:right;
 		visibility:hidden;
@@ -313,6 +317,22 @@ footer h1 {
 	   position:relative;
 	   padding-bottom:35.5%;
 		margin:2.5%;
+	}
+	.left-column {
+		width:80%;
+		float:left;
+		padding-left:2%;
+		color:#707070;
+		line-height:1.5em;
+		margin-top:5%;
+	}
+	.right-column {
+		width:80%;
+		float:left;
+		padding-right:2%;
+		line-height:1.5em;
+		color:gray;
+		margin-top:5%;
 	}
 }
 @media screen and (max-width:675px) {
@@ -333,7 +353,6 @@ footer h1 {
 		float:right;
 		visibility:visible;
 	}
-	
 	.box {
 		width:70%;
 	   float:left;
@@ -360,6 +379,28 @@ footer h1 {
 		-moz-transition: all 0.3s ease-out;
 		-o-transition: all 0.3s ease-out;
 		transition: all 0.3s ease-out; /*allow the text to slide up */ 
+	}
+	.left-column {
+		width:80%;
+		float:left;
+		padding-left:2%;
+		color:#707070;
+		line-height:1.5em;
+		margin-top:9%;
+	}
+	.right-column {
+		width:80%;
+		float:left;
+		padding-right:2%;
+		line-height:1.5em;
+		color:gray;
+		margin-top:5%;
+	}
+	.slide-thumnails img{
+		max-width:200px;
+		margin-top:30px;
+		margin-right:20px;
+		visibility:hidden;
 	}
 }
 @media screen and (max-width:500px) {
