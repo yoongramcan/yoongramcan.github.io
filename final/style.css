@@ -320,6 +320,11 @@ footer h1 {
 		margin-bottom:5%; /*50px*/
 		padding:0 27% 2% 2%;
 	}
+	header h1 {
+		font-family:'montserratlight';
+		color:gray;
+		font-size:1.2em;
+	}
 	nav {
 		float:right;
 		visibility:hidden;
@@ -334,27 +339,6 @@ footer h1 {
 	   float:left;
 	   position:relative;
 	   padding-bottom:57.5%;
-		margin:2.5%;
-	}
-}
-@media screen and (max-width:500px) {
-	header {
-		margin-bottom:5%; /*50px*/
-		padding:0 2% 2% 2%;
-	}
-	nav {
-		float:right;
-		visibility:hidden;
-	}
-	nav img {
-		float:right;
-		visibility:visible;
-	}
-	.box {
-		width:95%;
-	   float:left;
-	   position:relative;
-	   padding-bottom:77.5%;
 		margin:2.5%;
 	}
 	.boxInner .titlebox {
@@ -377,6 +361,33 @@ footer h1 {
 		-o-transition: all 0.3s ease-out;
 		transition: all 0.3s ease-out; /*allow the text to slide up */ 
 	}
+}
+@media screen and (max-width:500px) {
+	header {
+		margin-bottom:5%; /*50px*/
+		padding:0 2% 2% 2%;
+	}
+	header h1 {
+		font-family:'montserratlight';
+		color:gray;
+		font-size:1.2em;
+	}
+	nav {
+		float:right;
+		visibility:hidden;
+	}
+	nav img {
+		float:right;
+		visibility:visible;
+	}
+	.box {
+		width:95%;
+	   float:left;
+	   position:relative;
+	   padding-bottom:77.5%;
+		margin:2.5%;
+	}
+	
 }
 /* END RESPONSIVE */	
 
