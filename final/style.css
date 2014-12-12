@@ -184,7 +184,7 @@ nav li a:hover {
 	width:30%;
 	float:left;
 	padding-left:2%;
-	color:#707070; /* #353535 dark-gray*/
+	color:#707070;
 	line-height:1.5em;
 }
 .left-column h1 {
@@ -209,46 +209,6 @@ nav li a:hover {
 	line-height:1.5em;
 	color:gray;
 }
-/*.right-column img {
-	max-width:100%;
-	margin-bottom:30px;
-}
-.prev {
-	text-transform:uppercase;
-	font-family:sans-serif;
-	float:left;
-}
-.prev a {
-	text-transform:uppercase;
-	font-family:sans-serif;
-	font-size: 14px;
-	float:left;
-	text-decoration:none;
-	color:gray;
-}
-.prev a:hover {
-	color:lightgray;
-}
-.next {
-	text-transform:uppercase;
-	font-family:sans-serif;
-	float:right;
-}
-.next a {
-	text-transform:uppercase;
-	font-family:sans-serif;
-	font-size: 14px;
-	float:right;
-	text-decoration:none;
-	color:gray;
-}
-.next a:hover {
-	color:lightgray;
-}*/
-
-
-
-
 
 /*  SLIDE ONE
 ------------------------*/
@@ -258,13 +218,6 @@ nav li a:hover {
   height:470px;
   padding:0;
   overflow:hidden;
-  /*margin: 10px;
-  -webkit-box-shadow: ;
-  -moz-box-shadow: ;
-  box-shadow: 0 8px 10px -6px #000000;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;*/
 }
 .slide-inner {
    width:100%;
@@ -306,29 +259,10 @@ nav li a:hover {
 	-o-transition: all 0.8s ease-in;
 	transition: all 0.8s ease-in;
 }
-/*.slide .btn:hover,.slide .btn:focus{
-	background: #fff;
-	color: #c0392b;
-	border: 2px solid #c0392b;
-	box-shadow: 0 1px 2px #fff;
-	-webkit-transition: all 0.8s ease-out;
-	-moz-transition: all 0.8s ease-out;
-	-ms-transition: all 0.8s ease-out;
-	-o-transition: all 0.8s ease-out;
-	transition: all 0.8s ease-out;
-}*/
 .slide .left{left:1%;}
 .slide .right{right:1%;}
 /*  END SLIDE ONE
 ------------------------*/
-
-
-
-
-
-
-
-
 
 .slide-thumnails img{
 	max-width:200px;
@@ -363,9 +297,30 @@ footer h1 {
 
 
 
-	
-
-
+/* START RESPONSIVE */	
+@media screen and (max-width:1000px) {
+	.box {
+		width:45%;
+	   float:left;
+	   position:relative;
+	   padding-bottom:35.5%;
+		margin:2.5%;
+	}
+}
+@media screen and (max-width:675px) {
+	header {
+		margin-bottom:5%; /*50px*/
+		padding:0 27% 2% 2%;
+	}
+	.box {
+		width:70%;
+	   float:left;
+	   position:relative;
+	   padding-bottom:57.5%;
+		margin:2.5%;
+	}
+}
+/* END RESPONSIVE */	
 
 
 
