@@ -273,6 +273,12 @@ nav li a:hover {
 	margin-top:30px;
 	margin-right:20px;
 }
+.resume {
+	width:62%;
+	margin:0 auto;
+	line-height:1.5em;
+	color:gray;
+}
 .resume h1 a{
 	font-family: 'Pathway Gothic One', sans-serif;
 	font-size: 2.3em;
@@ -321,9 +327,12 @@ footer h1 {
 	text-transform: uppercase;	
 	font-weight:bold;
 }
-.footer-icons {
-	margin-top:25px;
+footer img {
+	width:2.5%;
 }
+/*.footer-icons {
+	margin-top:25px;
+}*/
 .clear {
 	clear:both;
 }
